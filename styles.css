@@ -1,3 +1,30 @@
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    text-align: center; /* Center the contents horizontally */
+    padding: 10px 0; /* Add padding above and below the navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: #fff; /* Text color of the links */
+    text-decoration: none;
+    padding: 10px 20px; /* Add spacing around the links */
+}
+
+.navbar ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
 body, html {
     margin: 0;
     padding: 0;
