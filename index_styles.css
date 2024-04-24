@@ -4,40 +4,29 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px; /* Adjust width as needed */
-    height: 100%;
-    background-color: #333; /* Background color of the sidebar */
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    text-align: center; /* Center the contents horizontally */
+    padding: 10px 0; /* Add padding above and below the navbar */
 }
 
-.sidebar ul {
+.navbar ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.sidebar ul li {
-    padding: 10px 20px;
-    border-bottom: 1px solid #555; /* Separator between menu items */
+.navbar ul li {
+    display: inline;
 }
 
-.sidebar ul li:last-child {
-    border-bottom: none; /* Remove border from last item */
-}
-
-.sidebar ul li a {
-    color: #fff; /* Text color */
+.navbar ul li a {
+    display: inline-block;
+    color: #fff; /* Text color of the links */
     text-decoration: none;
+    padding: 10px 20px; /* Add spacing around the links */
 }
 
-.sidebar ul li a:hover {
+.navbar ul li a:hover {
     background-color: #555; /* Background color on hover */
-}
-
-.content {
-    margin-left: 200px; /* Adjust margin to match sidebar width */
-    padding: 20px;
 }
