@@ -1,134 +1,35 @@
-.navbar {
-    background-color: #333; /* Background color of the navbar */
-    text-align: center; /* Center the contents horizontally */
-    padding: 10px 0; /* Add padding above and below the navbar */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar ul {
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    padding: 10px 20px; /* Add padding above and below the navbar */
+}
+
+.navbar nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li {
-    display: inline;
+.navbar nav ul li {
+    display: inline-block; /* Display list items horizontally */
 }
 
-.navbar ul li a {
-    display: inline-block;
+.navbar nav ul li a {
+    display: block; /* Display links as block elements for padding */
     color: #fff; /* Text color of the links */
     text-decoration: none;
     padding: 10px 20px; /* Add spacing around the links */
 }
 
-.navbar ul li a:hover {
+.navbar nav ul li a:hover {
     background-color: #555; /* Background color on hover */
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #333;
-}
-
-main {
-    text-align: center;
-}
-
-.cta {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
-.cta:hover {
-    background-color: #0056b3;
-}
-
-/* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-p {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* Button Styles */
-.cta {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
-.cta:hover {
-    background-color: #0056b3;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.fadeIn {
-    animation: fadeIn 1s ease;
-}
 
