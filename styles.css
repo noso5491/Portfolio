@@ -9,27 +9,96 @@
 .navbar {
     background-color: #333; /* Background color of the navbar */
     padding: 10px 20px; /* Add padding above and below the navbar */
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: space-between; /* Align items horizontally with space between them */
+    align-items: center; /* Align items vertically */
+}
+
+.navbar-brand {
+    font-size: 1.5em; /* Increase font size for branding */
+    color: #fff; /* Text color of the branding */
+    text-decoration: none;
 }
 
 .navbar nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Use flexbox for better alignment */
 }
 
 .navbar nav ul li {
-    display: inline-block; /* Display list items horizontally */
+    margin-right: 15px; /* Add spacing between menu items */
+}
+
+.navbar nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
 }
 
 .navbar nav ul li a {
-    display: block; /* Display links as block elements for padding */
     color: #fff; /* Text color of the links */
     text-decoration: none;
-    padding: 10px 20px; /* Add spacing around the links */
+    padding: 10px 15px; /* Add spacing around the links */
+    border-radius: 5px; /* Add border radius for rounded corners */
 }
 
 .navbar nav ul li a:hover {
     background-color: #555; /* Background color on hover */
 }
 
+/* Contact styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
