@@ -9,12 +9,14 @@ document.head.appendChild(link);
 
 
 document.write(`
+<h4>Solano Portfolio</h4>
 <header class="navbar">
     <nav>
         <ul>
-            <li><a href="welcome.html">Welcome</a></li>
+            <li><a href="index.html">Welcome</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="resume.html">Resume</a></li>
+            <li><a href="interests.html">Interests</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
